@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estágio FIEB</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="../images/favicon/site.webmanifest">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/estagio.css">
+</head>
+
+<body>
+  <header id="estagio-header" class="bg-white">
+    <div class="container-fluid clearfix d-flex">
+      <div class="header-inner rel d-flex align-items-center">
+        <div class="logo">
+          <a href="https://fieb.edu.br/" target="_blank"><img src="../images/logo-fiebtech-roxo.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="d-flex flex-column gap-8 pb-8 ff-exo text-gray">
+    <section id="estagio-topo" class="container-fluid ps-0 pe-0">
+      <div class="d-none d-lg-flex">
+        <img src="../images/home/topo-site-desktop.png" alt="">
+      </div>
+      <div class="d-flex d-lg-none">
+        <img src="../images/home/topo-site-mobile.png" alt="">
+      </div>
+    </section>
+
+    <div id="estagio-bar" class="container-fluid ps-0 pe-0">
+      <div class="bg-black w-100 d-flex justify-content-center">
+        <a href="#estagio-aluno" class="btn-format bg-purple900 text-white fw-bold" onmouseover="addAnimation(this)"
+          onmouseout="removeAnimation(this)" onclick="addAnimation(this)">Sou Aluno</a>
+        <a href="#estagio-empresas" class="btn-format bg-purple900 text-white fw-bold" onmouseover="addAnimation(this)"
+          onmouseout="removeAnimation(this)" onclick="addAnimation(this)">Sou Empresário</a>
+      </div>
+    </div>
+
+    <div id="estagio-contato" class="container">
+      <address class="fs-24 fw-bold text-purple">
+        <p>Responsável: Prof.ª Zilda</p>
+        <div>Email: <a href="mailto:estagio.fieb.edu.br" class="text-underline_hover transition3s">estagio.fieb.edu.br</a></div>
+        <br />
+      </address>
+    </div>
+
+    <article id="estagio-aluno" class="container d-flex flex-column gap-6">
+      <div class="box-categoria bg-pink p-4 pt-3 pb-3 col-5 col-lg-2">
+        <h2 class="fw-bold fs-32 text-white">Aluno</h2>
+      </div>
+
+      <section id="estagio-aluno_convite" class="d-flex flex-column gap-4">
+        <h2 class="fw-bold fs-32 text-pink">Quer fazer parte do Programa de Estágio FIEBTECH e se preparar para o Futuro
+          Profissional?</h2>
+
+        <div class="d-flex flex-column gap-4 fs-18">
+          <p>
+            O estágio é mais do que uma simples atividade - é um verdadeiro mergulho no mundo profissional,
+            supervisionado e
+            enriquecedor. Através dele, os estudantes têm a chance de integrar o processo de ensino-aprendizagem de
+            forma prática e
+            dinâmica, de acordo com todas as legislações e normas vigentes.
+          </p>
+
+          <p>
+            Pensando nisso, a FIEBTECH preparou uma oportunidade imperdível para estudantes do Ensino Médio Regular e
+            Ensino Técnico
+            de Nível Médio (Integrado/Modular) da Fundação realizarem estágio obrigatório e não obrigatório.
+          </p>
+
+          <p>
+            Nosso programa visa não apenas cumprir exigências acadêmicas, mas também promover uma experiência que
+            prepara os
+            estudantes para os desafios do mercado de trabalho. Com atividades que aproximam a teoria da prática,
+            garantimos que
+            você desenvolverá as habilidades essenciais para o sucesso profissional, enquanto se prepara para uma vida
+            cidadã plena.
+          </p>
+
+          <p>
+            Não perca essa oportunidade de aplicar seus conhecimentos em um ambiente real e construir um futuro de
+            sucesso. Junte-se
+            a nós no Programa de Estágio FIEBTECH e trilhe o caminho para uma carreira brilhante!
+          </p>
+
+          <div class="d-flex flex-column">
+            <a href="" target="_blank" class="fw-semibold_hover transition3s">Lei de estágio nº 11.788, de 25 de setembro de 2008</a>
+            <a href="" target="_blank" class="fw-semibold_hover transition3s">Lei Municipal do Estágio nº 2.739 de 26 de fevereiro de 2020</a>
+          </div>
+        </div>
+
+      </section>
+
+      <section id="estagio-aluno_empresas" class="d-flex flex-column gap-5">
+        <h2 class="fw-bold fs-32 text-pink">Como concorrer a uma oportunidade de estágio:</h2>
+        <div class="row gap-5 gap-md-0">
+          <div class="col-12 col-md-6 d-flex flex-column align-items-center gap-4">
+            <h3 class="fw-bold fs-32 text-pink text-uppercase text-center">Empresas <br /> Privadas</h3>
+
+            <div class="container-icone">
+              <img src="../images/home/empresa.png" alt="" class="w-100">
+            </div>
+
+            <ul class="d-flex flex-column gap-4 w-75">
+              <li>
+                <a href="" class="fs-24 fw-bold text-green800 text-underline transition3s">- Agente Integrador:</a>
+                <p class="fs-18 fw-medium">Empresas contratam por meio de qualquer agente integrador habilitado.</p>
+              </li>
+
+              <li>
+                <a href="" class="fs-24 fw-bold text-green800 text-underline transition3s">- Cadastro pelo #SouFIEB</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 d-flex flex-column align-items-center gap-4">
+            <h3 class="fw-bold fs-32 text-pink text-uppercase text-center">Prefeitura <br /> de Barueri</h3>
+
+            <div class="container-icone">
+              <img src="../images/home/prefeitura.png" alt="" class="w-100">
+            </div>
+
+            <p class="fs-18 mt-1 w-75 fw-medium">
+              A PMB contrata alunos da FIEB para estágio nas secretarias municipais.
+              Para mais informações, consulte o <a href=""
+                class="fs-24 fw-bold text-green800 text-underline transition3s">Manual do
+                Estagiário</a>.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="estagio-aluno_materiais" class="d-flex flex-column gap-4">
+        <h2 class="fw-bold fs-32 fw-bold text-pink">Materiais para download</h2>
+
+        <ul class="d-flex flex-column fs-18">
+          <li><a href="" class="text-underline fw-semibold_hover transition3s">- Manual do estagiário</a></li>
+          <li><a href="" class="text-underline fw-semibold_hover transition3s">- Relatório de atividades</a></li>
+          <li><a href="" class="text-underline fw-semibold_hover transition3s">- Termo de conclusão de estágio</a></li>
+        </ul>
+      </section>
+    </article>
+
+    <article id="estagio-empresas" class="container d-flex flex-column gap-6">
+      <div class="box-categoria bg-purple p-4 pt-3 pb-3 col-5 col-lg-2">
+        <h2 class="fw-bold fs-32 text-white">Empresas</h2>
+      </div>
+
+      <section id="estagio-empresas_convite" class="d-flex flex-column gap-4">
+        <h2 class="fw-bold fs-32 text-purple">Por que contratar estagiários é um benefício para a sua empresa?</h2>
+
+        <div class="d-flex flex-column gap-4 fs-18">
+          <p>
+            Contratar estagiários é uma estratégia inteligente para impulsionar sua empresa em diversas frentes. Além de
+            revitalizar
+            o ambiente de trabalho com novas perspectivas e abordagens inovadoras, os estagiários servem como uma
+            valiosa fonte de
+            talentos em potencial. Ao realizar estágios, as empresas têm a oportunidade de avaliar o desempenho e a
+            adequação
+            cultural dos estagiários para futuras contratações, enquanto aliviam a carga de trabalho da equipe existente
+            e aumentam
+            a eficiência operacional.
+          </p>
+
+          <p>
+            Além disso, os estagiários frequentemente demandam salários mais acessíveis, proporcionando uma solução
+            econômica para
+            as necessidades de mão de obra. Ao investir nessa prática, sua empresa também constrói uma reputação
+            positiva como
+            empregador, fortalecendo sua marca e atraindo talentos promissores no mercado de trabalho.
+          </p>
+
+          <p>
+            No entanto, é crucial oferecer uma experiência de estágio positiva, com orientação adequada e oportunidades
+            de
+            aprendizado, para garantir que os estagiários alcancem seu potencial máximo e se sintam motivados a
+            contribuir para o
+            sucesso da empresa.
+          </p>
+        </div>
+
+        <a href="" target="_blank" id="nossos-cursos"
+          class="d-flex flex-column flex-md-row gap-2 align-items-center justify-content-center text-green fs-32 fw-bold text-center transform-scale_hover transition3s">
+          <strong class="text-underline fw-bold">Clique aqui</strong> e conheça nossos cursos!
+
+          <div class="box-cursor-pointer">
+            <img src="../images/home/pointer.png" alt="" srcset="">
+          </div>
+        </a>
+      </section>
+
+      <section id="estagio-empresas_modalidades" class="d-flex flex-column gap-4">
+        <h2 class="fw-bold fs-32 text-purple">Modalidades de Estágio FIEBTECH</h2>
+
+        <div class="d-flex flex-column gap-4 fs-18">
+          <p>
+            Conforme a Lei Federal nº 11.788/08, o estágio não caracteriza vínculo de emprego de qualquer natureza,
+            desde que
+            observados os requisitos legais, não sendo devidos encargos sociais, trabalhistas e previdenciários.
+          </p>
+
+          <div class="d-grid gap-4">
+            <div>
+              <h4 class="fs-18"><strong class="text-green fw-bold">Estágio Obrigatório</strong>: <i>(o pagamento de
+                  bolsa-auxílio para esta
+                  modalidade é opcional)</i></h4>
+
+              <p>
+                É aquele definido no projeto do curso, cuja carga horária mínima é requisito para aprovação e obtenção do diploma dos
+                cursos técnicos, conforme art. 2º § 1º da Lei Federal nº 11.788/08.
+              </p>
+            </div>
+
+
+            <div>
+              <p>Cursos FIEBTECH com estágio obrigatório:</p>
+              <ul class="list-style fw-semibold text-black">
+                <li>Técnico em Análises Clínicas – com carga horária obrigatória de 250 horas;</li>
+                <li>Técnico em Enfermagem – com carga horária obrigatória de 400 horas.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="d-grid gap-2">
+            <h4 class="fs-18"><strong class="text-green fw-bold">Estágio Não Obrigatório:</strong> <i>
+                (o pagamento de bolsa-auxílio para esta modalidade é obrigatório)</i></h4>
+            <p>
+              Trata-se de uma modalidade desenvolvida como atividade opcional, acrescida à carga horária regular,
+              podendo ser
+              desenvolvida pelos estudantes dos demais cursos oferecidos pelas Unidades Escolares da FIEB, de acordo com
+              o itinerário
+              formativo de cada curso.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="estagio-empresas_como_contratar" class="d-flex flex-column gap-5">
+        <h2 class="fw-bold text-purple">Como contratar um estagiário para minha empresa?</h2>
+
+        <div class="d-flex flex-column flex-md-row gap-4">
+          <a href="https://fieb.edu.br/cadastro-cooperacao-tecnica-para-oferta-estagio/"
+            class="btn-format bg-purple900 text-white fw-bold" target="_blank" onmouseover="addAnimation(this)"
+            onmouseout="removeAnimation(this)" onclick="addAnimation(this)">
+            Cadastre-se no sistema FIEBTECH</a>
+          <a href="" class="btn-format bg-purple900 text-white fw-bold" onmouseover="addAnimation(this)"
+            onmouseout="removeAnimation(this)" onclick="addAnimation(this)">
+            Cadastre-se no sistema de um agente
+            integrador</a>
+        </div>
+      </section>
+    </article>
+
+    <section id="estagio-duvidas" class="container d-flex flex-column gap-5">
+      <button type="button" id="btn-duvidas" class="d-flex flex-row align-items-center gap-2 border-0 bg-none">
+        <h2 class="fw-bold text-purple">Dúvidas frequentes</h2>
+        <div class="box-arrow d-flex align-items-center transition3s">
+          <img src="../images/home/arrow.png" alt="" srcset="">
+        </div>
+      </button>
+
+      <div id="box-duvidas" class="fade d-none">
+        <div class="accordion d-flex flex-column gap-2" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                1. Quem tem autorização para empregar estagiários?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <div class="d-grid gap-3">
+                  <p>
+                    De acordo com o disposto no artigo 9º da legislação referente a estágios, estão aptos a empregar
+                    estagiários:
+                    Entidades
+                    jurídicas de natureza privada e as entidades pertencentes à administração pública direta, autárquica
+                    e
+                    fundacional de
+                    qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios, assim como
+                    profissionais liberais
+                    com
+                    formação superior devidamente inscritos em seus respectivos conselhos de fiscalização profissional.
+                  </p>
+                  <p>
+                    As alterações implementadas na regulamentação de estágios por meio da Lei 11.788/2008 viabilizaram
+                    que
+                    profissionais
+                    liberais registrados em seus órgãos de fiscalização passassem a ter a prerrogativa de contratar
+                    estagiários;
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                2. Como é feita a contratação?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <div class="d-grid gap-3">
+                  <p>
+                    O principal instrumento para regularizar um contrato de estágio, após a escolha do mesmo, é o Termo
+                    de
+                    Compromisso de
+                    Estágio (TCE). Listamos algumas informações que precisam constar nesse termo:
+                  </p>
+
+                  <ul class="list-style ms-4">
+                    <li>Dados pessoais do estagiário, da empresa e da instituição de ensino;</li>
+                    <li>Área do estágio e objetivos com a atividade;</li>
+                    <li>Principais tarefas que serão realizadas;</li>
+                    <li>Jornada de trabalho;</li>
+                    <li>Valor da remuneração;</li>
+                    <li>Valor do auxílio-transporte;</li>
+                    <li>Duração do Termo de Compromisso de Estágio;</li>
+                    <li>Dados da apólice do seguro.</li>
+                  </ul>
+
+                  <p>
+                    A FIEB disponibiliza o TCE no momento da formalização do estágio.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                3. É necessário seguro do estagiário?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>
+                  Conforme preconizado pela legislação de estágio, a parte concedente do estágio deve "efetivar a
+                  contratação, em
+                  benefício do estagiário, de um seguro contra acidentes pessoais, cuja apólice esteja em conformidade
+                  com
+                  os valores
+                  praticados no mercado, conforme estabelecido no termo de compromisso".
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                4. Posso contratar quantos estagiários?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <div class="d-grid gap-3">
+                  <p>
+                    Não há restrição quanto à quantidade de estagiários matriculados no ensino superior ou no ensino
+                    médio
+                    profissionalizante que podem ser contratados.
+                  </p>
+
+                  <div class="d-grid gap-1">
+                    <h4 class="fs-16 fw-semibold">Cadastro para Acordo de Cooperação Técnica para Oferta de Estágio</h4>
+
+                    <p class="fs-16">
+                      Você empresa contrata diretamente o estagiário, sem os custos com agente integrador, tendo
+                      apenas os custos relativos ao estágio remunerado (bolsa-auxílio, seguro obrigatório e vale
+                      transporte).
+                    </p>
+                  </div>
+
+                  <a href="https://fieb.edu.br/cadastro-cooperacao-tecnica-para-oferta-estagio/" target="_blank"
+                    class="text-underline text-blue transition3s">
+                    https://fieb.edu.br/cadastro-cooperacao-tecnica-para-oferta-estagio/
+                  </a>
+
+                  <div class="d-grid gap-1">
+                    <h4 class="fs-16 fw-semibold">Estágio por agente integrador</h4>
+
+                    <p class="fs-16">
+                      Você empresa pode optar por contratar nossos alunos fazendo convênio com qualquer agente
+                      integrador
+                      credenciado com a
+                      FIEB e terceirizar os processos de contratação (seguro obrigatório, busca ativa de vagas, etc).
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="estagio-ajuda" class="container d-flex flex-column gap-6">
+      <div class="d-flex flex-column gap-4">
+        <h2 class="fw-bold text-pink text-uppercase">Necessita de ajuda para contratar?</h2>
+
+        <address class="fs-18">
+          Entre em contato conosco pelo telefone: <strong class="fw-bold text-black">(11) 2078-7810</strong> ou envie um
+          e-mail para: <a href="mailto:estagio.fieb.edu.br"
+            class="text-underline fw-semibold_hover transition3s">estagio.fieb.edu.br</a>.
+        </address>
+      </div>
+    </section>
+  </main>
+
+  <footer id="estagio-footer" class="bg-black900 ff-roboto">
+    <div class="container pt-5 pb-5">
+      <div class="d-grid">
+        <div class="d-flex flex-column gap-4">
+          <h3 class="fw-semibold text-white fs-24 ff-poppins">Institucional</h3>
+          <ul class="d-flex flex-column gap-3">
+            <li><a href="https://fieb.edu.br/historia/" class="text-blue100" target="_blank">História</a></li>
+            <li><a href="https://fieb.edu.br/processo-seletivo/" class="text-blue100" target="_blank">Processo
+                Seletivo</a></li>
+            <li><a href="https://fieb.edu.br/downloads/regimento-escolar-comum.pdf?v=2023" class="text-blue100"
+                target="_blank">Regimento Comum</a></li>
+          </ul>
+        </div>
+        <div class="d-flex flex-column gap-4">
+          <h3 class="fw-semibold text-white fs-24 ff-poppins">Destaques</h3>
+          <ul class="d-flex flex-column gap-3">
+            <li><a href="https://vestibulinho.fieb.edu.br/" class="text-blue100" target="_blank">Vestibulinho</a></li>
+            <li><a href="https://fieb.edu.br/curso/" class="text-blue100" target="_blank">Cursos</a></li>
+            <li><a href="https://fieb.edu.br/concursos-publicos/" class="text-blue100" target="_blank">Concurso
+                Público</a></li>
+          </ul>
+        </div>
+        <div class="d-flex flex-column gap-4">
+          <h3 class="fw-semibold text-white fs-24 ff-poppins">Links Úteis</h3>
+          <ul class="d-flex flex-column gap-3">
+            <li><a href="https://portal.barueri.sp.gov.br/" class="text-blue100" target="_blank">Prefeitura Municipal de
+                Barueri</a></li>
+          </ul>
+        </div>
+        <div class="logo">
+          <a href="https://fieb.edu.br/" target="_blank"><img src="../images/logo-rodape.png" alt="" srcset=""></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+<script src="../js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+  integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+</html>
